@@ -1,10 +1,10 @@
-# :whale: Backend Upload API
+# :file_folder: Backend Upload API
 
 ## :warning: Project dependencies
 
 - [mongo-express_app][1]
 
-> Clone de project `[mongo-express_app][1]` and start application.
+> Clone de project [mongo-express_app][1] and start application.
 
 ## :pencil: Pre-requisites
 
