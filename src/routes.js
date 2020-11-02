@@ -8,12 +8,12 @@ routes.get('/', (req, res) => {
   res.json({ message: 'Great start! Now its progress focus' });
 });
 
-routes.get('/uploads', async (req, res) => {
+routes.get('/upload', async (req, res) => {
   const uploads = await Upload.find();
   return res.json(uploads);
 });
 
-routes.delete('/uploads/:id', async (req, res) => {
+routes.delete('/upload/:id', async (req, res) => {
   const upload = await Upload.findById(req.params.id)
   await upload.remove();
 
